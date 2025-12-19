@@ -1,0 +1,11 @@
+nav{
+    background-color: bisque;
+    padding: 10px;
+}
+.Navbar{
+
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
