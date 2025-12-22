@@ -7,14 +7,17 @@ const Navbar = () => {
     <div>
         <nav>
             <ul className='Navbar'>
-                <li> <Link to="/"> Home</Link></li>
-                <li> <Link to="/about"> About</Link></li>
-                <li> <Link to="/contact"> Contact</Link></li>
-                <li> <Link to="/services"> Services</Link></li>
+                <li> <Link  className ='Link' to="/"> Home</Link></li>
+                <li> <Link className ='Link' to="/about"> About</Link></li>
+                <li> <Link className ='Link' to="/contact"> Contact</Link></li>
+                <li> <Link className ='Link' to="/services"> Services</Link></li>
+                <li> <Link className =' Link'to="/useState">useState</Link></li>
+                <li> <Link className =' Link'to="/useEffect">useEffect</Link></li>
+
             </ul>
         </nav>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar
